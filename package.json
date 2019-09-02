@@ -1,0 +1,8 @@
+{
+  "name": "container",
+  "description": "",
+  "license": "MIT",
+  "dependencies": {
+    "@nebulario/microservice-auth-graph": "link:./../microservice-auth-graph"
+  }
+}
