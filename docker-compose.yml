@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    image: 919446158824.dkr.ecr.us-east-1.amazonaws.com/microservice-auth-graph-container:linked
+    env_file:
+      - .env
+    ports:
+     - "${SERVICE_PORT}:${SERVICE_PORT}"
