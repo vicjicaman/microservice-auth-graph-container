@@ -6,7 +6,9 @@ RUN chown -R node /app
 WORKDIR /app
 
 USER node
+RUN echo 0 > signal
 
+ARG CACHEBUST=1
 COPY ./node_modules /app/node_modules
 
 ENTRYPOINT ["node"]
