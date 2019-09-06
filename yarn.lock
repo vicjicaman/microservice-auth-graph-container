@@ -10,10 +10,10 @@
     core-js "^2.6.5"
     regenerator-runtime "^0.13.2"
 
-"@nebulario/microservice-auth-graph@1.70.2-auth-stateful-prod":
-  version "1.70.2-auth-stateful-prod"
-  resolved "https://registry.yarnpkg.com/@nebulario/microservice-auth-graph/-/microservice-auth-graph-1.70.2-auth-stateful-prod.tgz#225140cffded427a0d2c1fd561cfbb97d7406121"
-  integrity sha512-t9+PzPn/gXC+hV6I0YnapsMF8fMBY/zteBqr3nrsYmYqrIrz+iBRmC/QItioOpeTtYGfxf1slUiASWeSDlWtfw==
+"@nebulario/microservice-auth-graph@1.70.1-master":
+  version "1.70.1-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/microservice-auth-graph/-/microservice-auth-graph-1.70.1-master.tgz#170619b308ef84d8293425a643a988985e47b6de"
+  integrity sha512-QsABdb4L91f723TPndKSjPb+S3ZGWsjUzypAnbUTVqcUlQvSo7VhztOgZEQu/aHq+PK0/eWZoGpGp9i8XY5SBA==
   dependencies:
     dotenv "^7.0.0"
     express "^4.16.4"
