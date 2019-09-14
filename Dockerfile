@@ -3,13 +3,14 @@ FROM node:8.13.0-alpine
 RUN mkdir -p /app
 RUN chown -R node /app
 
-WORKDIR /app
-
 USER node
-RUN echo 0 > signal
+
+WORKDIR /app/node_modules/@nebulario/microservice-auth-graph
 
 ARG CACHEBUST=1
-COPY ./node_modules /app/node_modules
+RUN echo "CACHE $CACHEBUST"
+
+COPY --chown=node:node ./node_modules /app/node_modules
 
 ENTRYPOINT ["node"]
-CMD ["/app/node_modules/@nebulario/microservice-auth-graph/src/index.js"]
+CMD ["dist/index.js"]
