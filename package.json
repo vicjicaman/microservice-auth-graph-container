@@ -3,6 +3,6 @@
   "description": "",
   "license": "MIT",
   "dependencies": {
-    "@nebulario/microservice-auth-graph": "1.70.0-auth-base-cache-data-prod"
+    "@nebulario/microservice-auth-graph": "1.70.3-master"
   }
 }
