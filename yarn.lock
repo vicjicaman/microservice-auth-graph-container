@@ -25,13 +25,38 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@nebulario/microservice-auth-common@link:../microservice-auth-common":
-  version "0.0.0"
-  uid ""
+"@nebulario/microservice-auth-common@1.70.0-auth-common-prod":
+  version "1.70.0-auth-common-prod"
+  resolved "https://registry.yarnpkg.com/@nebulario/microservice-auth-common/-/microservice-auth-common-1.70.0-auth-common-prod.tgz#fa92c452c564408d29159c34fc447b2fc16fafae"
+  integrity sha512-/XABCOUgE/GQRZ6mj7nnDnS6t7gNvNau0Q15x9KPS3SyhCCBzZ7pKVYLQYMxP6KEqnjkgkEI+BNxzgNL4MRDmg==
+  dependencies:
+    "@babel/runtime" "^7.6.0"
+    "@babel/runtime-corejs3" "^7.6.0"
+    connect-redis "^4.0.2"
+    express-session "^1.16.2"
+    graphql-request "^1.8.2"
+    passport "^0.4.0"
+    passport-local "^1.0.0"
+    redis "^2.8.0"
+    redis-parser "^3.0.0"
 
-"@nebulario/microservice-auth-graph@link:../microservice-auth-graph":
-  version "0.0.0"
-  uid ""
+"@nebulario/microservice-auth-graph@1.70.0-auth-common-prod":
+  version "1.70.0-auth-common-prod"
+  resolved "https://registry.yarnpkg.com/@nebulario/microservice-auth-graph/-/microservice-auth-graph-1.70.0-auth-common-prod.tgz#52cebfd6dd4c6b9d7e47bb1b08ccad36e910b45b"
+  integrity sha512-oRXFR+drX6fjQZntOkyGBZ3i8JkuyvCO4gjiwjm+ecEw4Q1646P6q6X+A32A+XBPjqsGtBvR3jOXccKHGAZaTQ==
+  dependencies:
+    "@babel/runtime" "^7.6.0"
+    "@babel/runtime-corejs3" "^7.6.0"
+    "@nebulario/microservice-auth-common" "1.70.0-auth-common-prod"
+    dotenv "^7.0.0"
+    express "^4.16.4"
+    express-graphql "^0.7.1"
+    graphql "^14.2.0"
+    graphql-iso-date "^3.6.1"
+    graphql-request "^1.8.2"
+    graphql-tools "^4.0.4"
+    graphql-tools-types "^1.2.1"
+    mongoose "^5.6.12"
 
 "@wry/equality@^0.1.2":
   version "0.1.9"
