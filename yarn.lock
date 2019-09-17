@@ -25,10 +25,10 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@nebulario/microservice-auth-common@1.70.0-master":
-  version "1.70.0-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/microservice-auth-common/-/microservice-auth-common-1.70.0-master.tgz#cc86b7c23455fa5e24f9baa94fdbce05c8f4b93c"
-  integrity sha512-oNhRDnso7bXGn4spLP+97KRT1E2+yhd5URM30uE/X22sbOhbd8GNNzj0DC/4g268GoTdqsF4VtwFu9BjkHWZxQ==
+"@nebulario/microservice-auth-common@1.70.1-master":
+  version "1.70.1-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/microservice-auth-common/-/microservice-auth-common-1.70.1-master.tgz#709f1bd7ac152e00d237d0e2de2aadd0625a04a3"
+  integrity sha512-qqq/Dfu0EasDpr5MGYhqclUsXG+McEqCGBx71131+KHtZZl6hgSFmX/BMdcEoJebP4tODKze9doCjL2WGMZBSA==
   dependencies:
     "@babel/runtime" "^7.6.0"
     "@babel/runtime-corejs3" "^7.6.0"
@@ -40,14 +40,14 @@
     redis "^2.8.0"
     redis-parser "^3.0.0"
 
-"@nebulario/microservice-auth-graph@1.70.4-master":
-  version "1.70.4-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/microservice-auth-graph/-/microservice-auth-graph-1.70.4-master.tgz#23a7fadf8e640a5a033722152f3f97e7b4c6b31b"
-  integrity sha512-qdJjrgigIEc+ti7cRhul2U3Qo3gEY4I1hUluWizvttkVvj0Jo9K/QTIEy9z5Qvyh2ntf8gHMTLcT5BOXUz0IqA==
+"@nebulario/microservice-auth-graph@1.70.5-master":
+  version "1.70.5-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/microservice-auth-graph/-/microservice-auth-graph-1.70.5-master.tgz#e280607ca39d99c2fa83e064d6f11bfc41ab17c6"
+  integrity sha512-h5VFpm5ODNLAK78Gh7YyzfNS+1AiPSWY0b+XvKdMgJgBAWPE+3tsgMzGODEdPACfQv3ydYFEwZZyKPm7iuHxaw==
   dependencies:
     "@babel/runtime" "^7.6.0"
     "@babel/runtime-corejs3" "^7.6.0"
-    "@nebulario/microservice-auth-common" "1.70.0-master"
+    "@nebulario/microservice-auth-common" "1.70.1-master"
     dotenv "^7.0.0"
     express "^4.16.4"
     express-graphql "^0.7.1"
