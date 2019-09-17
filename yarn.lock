@@ -40,9 +40,23 @@
     redis "^2.8.0"
     redis-parser "^3.0.0"
 
-"@nebulario/microservice-auth-graph@link:../microservice-auth-graph":
-  version "0.0.0"
-  uid ""
+"@nebulario/microservice-auth-graph@1.70.0-account-page-prod":
+  version "1.70.0-account-page-prod"
+  resolved "https://registry.yarnpkg.com/@nebulario/microservice-auth-graph/-/microservice-auth-graph-1.70.0-account-page-prod.tgz#cd846f56b24a71db0c7e902fb50f01cec0c0ce09"
+  integrity sha512-JNn8B+SOhgylqpUF7+P/+I9v/CQ6YBzGVAiPaNT2/ZOQctoROp9nno1skXX27ZXso7CjfjDXho4QMLPyqVNzPw==
+  dependencies:
+    "@babel/runtime" "^7.6.0"
+    "@babel/runtime-corejs3" "^7.6.0"
+    "@nebulario/microservice-auth-common" "1.70.1-master"
+    dotenv "^7.0.0"
+    express "^4.16.4"
+    express-graphql "^0.7.1"
+    graphql "^14.2.0"
+    graphql-iso-date "^3.6.1"
+    graphql-request "^1.8.2"
+    graphql-tools "^4.0.4"
+    graphql-tools-types "^1.2.1"
+    mongoose "^5.6.12"
 
 "@wry/equality@^0.1.2":
   version "0.1.9"
