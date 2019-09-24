@@ -40,10 +40,10 @@
     redis "^2.8.0"
     redis-parser "^3.0.0"
 
-"@nebulario/microservice-auth-graph@1.70.0-auth-home-config-prod":
-  version "1.70.0-auth-home-config-prod"
-  resolved "https://registry.yarnpkg.com/@nebulario/microservice-auth-graph/-/microservice-auth-graph-1.70.0-auth-home-config-prod.tgz#25c7195af828e74848a04fb7ee8cb4f3c65d66c5"
-  integrity sha512-BcF9NmM/3mpcL5mfsPa15duTI6NIj+z6b3OrZFCKBkyS0zmxDaYgc5kB3grnbVdt9ADxzb0wV9wCy94V/BpFgg==
+"@nebulario/microservice-auth-graph@1.70.7-master":
+  version "1.70.7-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/microservice-auth-graph/-/microservice-auth-graph-1.70.7-master.tgz#37022d6eef03f748797d0e651b7d08c30a9b85ff"
+  integrity sha512-wVi9f1rSob1vXK56FN85xh/cu3kFlC5Zd6AbItbBrAQ9T4S1/SGZsWOWTbGbYmAeUowt1vqZyCQsVWQxeRr8ug==
   dependencies:
     "@babel/runtime" "^7.6.0"
     "@babel/runtime-corejs3" "^7.6.0"
