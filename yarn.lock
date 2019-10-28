@@ -40,26 +40,11 @@
     redis "^2.8.0"
     redis-parser "^3.0.0"
 
-"@nebulario/microservice-auth-graph@1.70.7-master":
-  version "1.70.7-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/microservice-auth-graph/-/microservice-auth-graph-1.70.7-master.tgz#37022d6eef03f748797d0e651b7d08c30a9b85ff"
-  integrity sha512-wVi9f1rSob1vXK56FN85xh/cu3kFlC5Zd6AbItbBrAQ9T4S1/SGZsWOWTbGbYmAeUowt1vqZyCQsVWQxeRr8ug==
-  dependencies:
-    "@babel/runtime" "^7.6.0"
-    "@babel/runtime-corejs3" "^7.6.0"
-    "@nebulario/microservice-auth-common" "1.70.1-master"
-    "@nebulario/microservice-utils" "^1.70.0-master"
-    dotenv "^7.0.0"
-    express "^4.16.4"
-    express-graphql "^0.7.1"
-    graphql "^14.2.0"
-    graphql-iso-date "^3.6.1"
-    graphql-request "^1.8.2"
-    graphql-tools "^4.0.4"
-    graphql-tools-types "^1.2.1"
-    mongoose "^5.6.12"
+"@nebulario/microservice-auth-graph@link:../microservice-auth-graph":
+  version "0.0.0"
+  uid ""
 
-"@nebulario/microservice-utils@^1.70.0-master":
+"@nebulario/microservice-utils@1.70.0-master":
   version "1.70.0-master"
   resolved "https://registry.yarnpkg.com/@nebulario/microservice-utils/-/microservice-utils-1.70.0-master.tgz#0a477aea686f3779d8fb85deb2cb785520ee966f"
   integrity sha512-Qm1E2iMtabHiCuEDlbgxpG5s2ujTnUJvvMRu4lf4nH/Ut/JCVwsdMJ1VVz3d/4zgT8QFkDKFnlxkF1h8pFakSA==
