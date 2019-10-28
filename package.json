@@ -3,6 +3,6 @@
   "description": "",
   "license": "MIT",
   "dependencies": {
-    "@nebulario/microservice-auth-graph": "link:./../microservice-auth-graph"
+    "@nebulario/microservice-auth-graph": "1.70.0-blog-comments-prod"
   }
 }
