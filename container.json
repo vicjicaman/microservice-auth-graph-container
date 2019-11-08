@@ -1,4 +1,9 @@
 {
   "name": "repoflow/microservice-auth-graph-container",
-  "version": "1.70.8-master"
+  "version": "1.70.9-master",
+  "source": {
+    "type": "npm",
+    "fullname": "@nebulario/microservice-auth-graph",
+    "version": "1.70.8-master"
+  }
 }
